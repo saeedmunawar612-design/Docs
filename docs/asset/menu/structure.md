@@ -270,7 +270,8 @@ Example:
         // name property taking a literal value
         name "TestMenu"
 
-        // visible property taking an expression
+        // visible property
+ taking an expression
         visible when(dvarbool(ui_isTesting));
 
         // onOpen property taking an event handler
